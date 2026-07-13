@@ -2,16 +2,16 @@
 
 ## Task 2: Unemployment Analysis with Python — CodeAlpha Data Science Internship
 
-### 📌 Overview
+###  Overview
 This project analyzes unemployment rate data across Indian states (2019–2020),
 with a focus on the impact of COVID-19 on unemployment trends. It covers data
 cleaning, exploratory data analysis, visualization, and policy-relevant insights.
 
-### 📊 Datasets
+###  Datasets
 - `data/Unemployment_in_India.xlsx` — State-wise unemployment data with Rural/Urban split
 - `data/Unemployment_Rate_upto_11_2020.xlsx` — State-wise unemployment data with zone and geo-coordinates
 
-### 🔍 What the notebook covers
+###  What the notebook covers
 1. Data loading & inspection
 2. Data cleaning (whitespace, missing rows, date parsing, merging datasets)
 3. Descriptive statistics
@@ -25,13 +25,13 @@ cleaning, exploratory data analysis, visualization, and policy-relevant insights
 11. Correlation analysis
 12. Key insights & policy recommendations
 
-### 🛠 Tools & Libraries
+###  Tools & Libraries
 - Python
 - Pandas — data cleaning & manipulation
 - Matplotlib & Seaborn — data visualization
 - Jupyter Notebook
 
-### 📁 Project Structure
+###  Project Structure
 ```
 ├── Unemployment_Analysis_India.ipynb   # Main analysis notebook (fully executed)
 ├── data/
@@ -41,19 +41,19 @@ cleaning, exploratory data analysis, visualization, and policy-relevant insights
 └── README.md
 ```
 
-### ▶️ How to run
+###  How to run
 ```bash
 pip install pandas numpy matplotlib seaborn jupyter openpyxl
 jupyter notebook Unemployment_Analysis_India.ipynb
 ```
 
-### 📈 Key Findings
+### Key Findings
 - Unemployment rate rose sharply during the March–May 2020 COVID-19 lockdown compared to pre-COVID levels.
 - Urban areas saw a steeper unemployment increase than rural areas during the lockdown.
 - Unemployment impact varied significantly across states and zones.
 - Some seasonal variation in unemployment exists outside the pandemic period.
 
-### 🎓 Internship
+###  Internship
 This project was completed as part of the **CodeAlpha Data Science Internship** (Task 2).
 
 ---

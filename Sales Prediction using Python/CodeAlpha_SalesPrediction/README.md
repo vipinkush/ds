@@ -2,16 +2,16 @@
 
 ## Task 4: Sales Prediction using Python — CodeAlpha Data Science Internship
 
-### 📌 Overview
+###  Overview
 This project predicts product **sales** based on advertising spend across three
 platforms — **TV, Radio, and Newspaper** — and analyzes how changes in advertising
 budget impact sales outcomes, to deliver actionable marketing insights.
 
-### 📊 Dataset
+###  Dataset
 - `data/Advertising.xlsx` — 200 records: advertising spend (in $ thousands) on TV,
   Radio and Newspaper, and resulting Sales (in thousands of units).
 
-### 🔍 What the notebook covers
+###  What the notebook covers
 1. Data loading & inspection
 2. Data cleaning (dropping the redundant index column, duplicate check)
 3. Exploratory data analysis (distributions, spend-vs-sales scatter plots, correlation, pairplot)
@@ -25,13 +25,13 @@ budget impact sales outcomes, to deliver actionable marketing insights.
 11. Example prediction for a new advertising budget
 12. Key insights & marketing recommendations
 
-### 🛠 Tools & Libraries
+###  Tools & Libraries
 - Python, Pandas, NumPy
 - Matplotlib & Seaborn — visualization
 - Scikit-learn — preprocessing, regression models, evaluation
 - Jupyter Notebook
 
-### 📁 Project Structure
+###  Project Structure
 ```
 ├── Sales_Prediction.ipynb   # Main analysis & modeling notebook (fully executed)
 ├── data/
@@ -40,13 +40,13 @@ budget impact sales outcomes, to deliver actionable marketing insights.
 └── README.md
 ```
 
-### ▶️ How to run
+###  How to run
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter openpyxl
 jupyter notebook Sales_Prediction.ipynb
 ```
 
-### 📈 Key Findings
+###  Key Findings
 - **TV advertising is the dominant driver of sales** — highest correlation, largest
   linear coefficient, and highest feature importance.
 - **Radio advertising has a real, secondary positive effect** on sales.
@@ -55,7 +55,7 @@ jupyter notebook Sales_Prediction.ipynb
 - Linear Regression already performs strongly, since the advertising–sales
   relationship in this dataset is close to linear.
 
-### 🎓 Internship
+###  Internship
 This project was completed as part of the **CodeAlpha Data Science Internship** (Task 4).
 
 ---
