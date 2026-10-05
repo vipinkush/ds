@@ -53,7 +53,7 @@ jupyter notebook Unemployment_Analysis_India.ipynb
 - Unemployment impact varied significantly across states and zones.
 - Some seasonal variation in unemployment exists outside the pandemic period.
 
-###  Internship
+###     Internship
 This project was completed as part of the **CodeAlpha Data Science Internship** (Task 2).
 
 ---
